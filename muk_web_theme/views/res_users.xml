@@ -49,10 +49,10 @@
         <field name="model">res.users</field>
         <field name="inherit_id" ref="base.view_users_form_simple_modif" />
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='tz_offset']" position="after">
+<!--            <xpath expr="//field[@name='tz_offset']" position="after">
                 <field name="sidebar_type" readonly="0"/>
             </xpath>
         </field>
-    </record>
+    </record>-->
 
 </odoo>
