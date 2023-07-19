@@ -67,13 +67,13 @@ class ResUsers(models.Model):
     # Fields
     #----------------------------------------------------------
 
-  #  sidebar_type = fields.Selection(
-  #      selection=[
-  #          ('invisible', 'Invisible'),
-  #          ('small', 'Small'),
-  #          ('large', 'Large')
-  #      ], 
-  #      string="Sidebar Type",
-  #      default='large',
-  #      required=True,
-  #  )
+    sidebar_type = fields.Selection(
+        selection=[
+            ('invisible', 'Invisible'),
+            ('small', 'Small'),
+            ('large', 'Large')
+        ], 
+        string="Sidebar Type",
+        default='large',
+        required=True,
+    )
